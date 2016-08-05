@@ -1,4 +1,4 @@
-# Advanced_Algorithms
+# Advanced Algorithms
 
 This repository contains some more advanced algorithms for sorting, sorting in finite universes, searching and trees.
 For some algorithms there are short or more advanced tests.
