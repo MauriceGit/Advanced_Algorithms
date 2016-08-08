@@ -12,8 +12,8 @@ Please see the appropriate file for the exact algorithm.
 ## General Sorting
 | Algorithm | Runtime |
 | --- | --- |
-- | [Mergesort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/mergesort.py) | O(n logn) |
-- | [Quicksort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/quicksort.py) | O(n^2) |
+| [Mergesort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/mergesort.py) | O(n logn) |
+| [Quicksort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/quicksort.py) | O(n^2) |
 
 ## Sorting in finite domains
 
