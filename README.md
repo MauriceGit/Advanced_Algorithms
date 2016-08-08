@@ -19,7 +19,9 @@ Please see the appropriate file for the exact algorithm.
 ## Sorting in finite domains
 
 n = number of values
+
 k = number of different values
+
 s = max word length (Radixsort)
 
 | Algorithm | Runtime |
