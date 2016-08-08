@@ -10,9 +10,9 @@ Please see the appropriate file for the exact algorithm.
 - [2,3-tree](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/23Tree.py) (special case of the a,b-tree)
 
 ## General Sorting
-
-- [Mergesort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/mergesort.py)
-- [Quicksort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/quicksort.py)
+| --- | --- |
+- | [Mergesort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/mergesort.py) | O(n logn)
+- | [Quicksort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/quicksort.py) | O(n^2)
 
 ## Sorting in finite domains
 
