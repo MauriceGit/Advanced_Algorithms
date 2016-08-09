@@ -5,7 +5,7 @@ For some algorithms there are short or more advanced tests.
 
 Please see the appropriate file for the exact algorithm.
 
-These implementations were done accompanying to a masters lecture on algorithmics.
+These implementations were done accompanying a masters lecture on algorithmics.
 Some of these algorithms are just implemented quick-and-dirty while others (2,3-tree) have gotten some more thought put into.
 I couldn't always find time.
 
