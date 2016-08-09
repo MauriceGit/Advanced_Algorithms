@@ -8,13 +8,13 @@ Please see the appropriate file for the exact algorithm.
 ## Tree
 
 Algorithm | Runtime
-------------------------------------------------------------------------------- | ---
+--- | ---
 [2,3-tree](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/23Tree.py) (special case of the a,b-tree) | All operations in θ(logn)
 
 ## General Sorting
 
 Algorithm | Runtime |
-------------------------------------------------------------------------------- | ---
+--- | ---
 [Mergesort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/mergesort.py) | O(n logn)
 [Quicksort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/quicksort.py) | O(n^2)
 
@@ -27,7 +27,7 @@ k = number of different values
 s = max word length (Radixsort)
 
 Algorithm | Runtime
----------------------------------------- | ---
+--- | ---
 [Countingsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/counting_sort.py) | θ(n+k), O(n)
 [Advanced Countingsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/counting_sort_complex.py) | θ(n+k), O(n)
 [Bucketsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/bucket_sort.py) | θ(n+k), O(n)
