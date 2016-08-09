@@ -7,7 +7,9 @@ Please see the appropriate file for the exact algorithm.
 
 ## Tree
 
-- [2,3-tree](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/23Tree.py) (special case of the a,b-tree)
+| Algorithm | Runtime |
+| --- | --- |
+| [2,3-tree](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/23Tree.py) (special case of the a,b-tree) | All operations in θ(logn) |
 
 ## General Sorting
 
