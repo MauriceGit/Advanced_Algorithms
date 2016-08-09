@@ -1,5 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
+"""
+Testing two selection algorithms (random and deterministic).
+Find a random index.
+"""
+__author__ = "Maurice Tollmien"
+__maintainer__ = "Maurice Tollmien"
+__email__ = "maurice.tollmien@gmail.com"
 
 
 from selection_det import select_det

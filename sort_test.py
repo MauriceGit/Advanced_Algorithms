@@ -1,5 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
+"""
+Testing sorting algorithms for elements in finite universes.
+Careful, it prints out the results.
+"""
+__author__ = "Maurice Tollmien"
+__maintainer__ = "Maurice Tollmien"
+__email__ = "maurice.tollmien@gmail.com"
 
 from counting_sort import counting_sort
 from counting_sort_complex import counting_sort_complex
@@ -13,11 +20,13 @@ if __name__ == '__main__':
 
     print "Finished creating .."
 
+    # Test all sorting
     print counting_sort(bigList)
     print counting_sort_complex(bigList)
     print bucket_sort(bigList)
     print radix_sort_int(bigList)
 
+    # convert numbers to String so we can use radix-sort directly on words.
     stringList = []
     maxWordSize = 15
     for i in range(listSize):

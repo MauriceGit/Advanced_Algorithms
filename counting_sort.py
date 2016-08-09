@@ -1,5 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
+"""
+Sorting of elements with a finite amount k of different values!! This is very important. Runs in Theta(n+k).
+"""
+__author__ = "Maurice Tollmien"
+__maintainer__ = "Maurice Tollmien"
+__email__ = "maurice.tollmien@gmail.com"
 
 def sort(inputList, maxElem):
     outputList = [0 for i in inputList]

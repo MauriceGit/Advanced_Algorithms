@@ -1,5 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
+"""
+Search for the index of an element in a sorted list.
+"""
+__author__ = "Maurice Tollmien"
+__maintainer__ = "Maurice Tollmien"
+__email__ = "maurice.tollmien@gmail.com"
 
 def search(S, e, l, r, count):
     # second check to avoid possible division by zero later on

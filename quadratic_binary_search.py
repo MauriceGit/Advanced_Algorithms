@@ -1,5 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
+"""
+Find the index of an element in a sorted List.
+"""
+__author__ = "Maurice Tollmien"
+__maintainer__ = "Maurice Tollmien"
+__email__ = "maurice.tollmien@gmail.com"
 
 import math
 

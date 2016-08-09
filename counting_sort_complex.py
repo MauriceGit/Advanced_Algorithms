@@ -1,5 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
+"""
+Sorting of elements with a finite amount k of different values!! This is very important. Runs in Theta(n+k).
+"""
+__author__ = "Maurice Tollmien"
+__maintainer__ = "Maurice Tollmien"
+__email__ = "maurice.tollmien@gmail.com"
 
 def sort(inputList, maxElem):
     outputList = [0 for i in inputList]
@@ -37,6 +43,7 @@ def sort_tuple(inputList, maxElem):
 
     return outputList
 
+# So this can be used in Radix-sort!
 def counting_sort_complex_tuple(inputList):
     maxElem = max(e[0] for e in inputList)
     return sort_tuple(inputList, maxElem+1)

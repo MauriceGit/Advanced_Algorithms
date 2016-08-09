@@ -1,5 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
+"""
+Complete object-oriented implementation of a 2,3-Tree.
+Implemented with just numbers in mind. Have a look through the code, if you want to put anything else in there!
+"""
+__author__ = "Maurice Tollmien"
+__maintainer__ = "Maurice Tollmien"
+__email__ = "maurice.tollmien@gmail.com"
 
 
 class Tree23:
@@ -248,6 +255,7 @@ class Tree23:
         self._pprint(self.treeInstance)
         print ""
 
+# Some tests
 if __name__ == '__main__':
 
     tree = Tree23()

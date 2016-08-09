@@ -1,8 +1,15 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
+"""
+Search for the k-th element of an unsorted list.
+"""
+__author__ = "Maurice Tollmien"
+__maintainer__ = "Maurice Tollmien"
+__email__ = "maurice.tollmien@gmail.com"
 
 import statistics
 
+# Basically Quicksort partition
 def partition(pivot, A):
     smaller = []
     equal   = []
@@ -17,6 +24,7 @@ def partition(pivot, A):
                 larger.append(p)
     return smaller, equal, larger
 
+# Yay, generators :)
 def chunks(l, n):
     for i in range(0, len(l), n):
         yield l[i:i+n]
@@ -35,6 +43,8 @@ def select(k, A):
 
     subSorted, medians = sortSubListsAndMedian(bigList)
 
+    # This can't be done recursively. Stack overflow.
+    # If you get it working that way, please create a pull-request.
     medianPivot = statistics.median_low(medians)
 
     smaller, equal, larger = partition(medianPivot, A)

@@ -1,6 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
-
+"""
+Sorting of n data that is within bounded limits so we can map all data to an interval of 0..1 !
+"""
+__author__ = "Maurice Tollmien"
+__maintainer__ = "Maurice Tollmien"
+__email__ = "maurice.tollmien@gmail.com"
 
 
 def sort(inputList, mappingFactor, bucketCount):

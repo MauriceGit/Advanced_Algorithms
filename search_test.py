@@ -1,5 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
+"""
+Test some search-algorithms. Looking for random elements in an unsorted list.
+And create some statistics about it.
+"""
+__author__ = "Maurice Tollmien"
+__maintainer__ = "Maurice Tollmien"
+__email__ = "maurice.tollmien@gmail.com"
 
 from binary_search import binary_search
 from interpolation_search import interpolation_search
