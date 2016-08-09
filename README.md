@@ -9,14 +9,14 @@ Please see the appropriate file for the exact algorithm.
 
 Algorithm | Runtime
 --- | ---
-[2,3-tree](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/23Tree.py) (special case of the a,b-tree) | All operations in θ(logn) w.c. and a.c.
+[2,3-tree](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/Tree/23Tree.py) (special case of the a,b-tree) | All operations in θ(logn) w.c. and a.c.
 
 ## General Sorting
 
 Algorithm | Runtime |
 --- | ---
-[Mergesort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/mergesort.py) | O(n logn)
-[Quicksort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/quicksort.py) | O(n^2)
+[Mergesort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/General_Sorting/mergesort.py) | O(n logn)
+[Quicksort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/General_Sorting/quicksort.py) | O(n^2)
 
 ## Sorting in finite domains
 
@@ -28,10 +28,10 @@ s = max word length (Radixsort)
 
 Algorithm | Runtime
 --- | ---
-[Countingsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/counting_sort.py) | θ(n+k) w.c. and a.c.
-[Advanced Countingsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/counting_sort_complex.py) | θ(n+k) w.c. and a.c.
-[Bucketsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/bucket_sort.py) | θ(n+k) w.c. and a.c.
-[Radixsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/radix_sort.py) | θ(s*(n+k)) w.c. and a.c.
+[Countingsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/Finite_Domain_Sorting/counting_sort.py) | θ(n+k) w.c. and a.c.
+[Advanced Countingsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/Finite_Domain_Sorting/counting_sort_complex.py) | θ(n+k) w.c. and a.c.
+[Bucketsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/Finite_Domain_Sorting/bucket_sort.py) | θ(n+k) w.c. and a.c.
+[Radixsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/Finite_Domain_Sorting/radix_sort.py) | θ(s*(n+k)) w.c. and a.c.
 
 ## Order statistics (Select algorithms)
 
@@ -39,13 +39,13 @@ Searching for the n-th element in a not sorted list.
 
 Algorithm | Runtime
 --- | ---
-[Randomised Algorithm](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/selection_rand.py) | θ(n^2) w.c. θ(n) a.c.
-[Deterministic Algorithm](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/selection_det.py) | θ(n) w.c. and a.c.
+[Randomised Algorithm](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/Selection/selection_rand.py) | θ(n^2) w.c. θ(n) a.c.
+[Deterministic Algorithm](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/Selection/selection_det.py) | θ(n) w.c. and a.c.
 
 ## Searching in sorted Arrays
 
 Algorithm | Runtime
 --- | ---
-[Binary Search](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/binary_search.py) | θ(logn)
-[Interpolation Search](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/interpolation_search.py) | θ(n) w.c. θ(log(logn)) a.c.
-[Quadratic Binary Search](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/quadratic_binary_search.py) | θ(sqrt(n)) w.c. θ(log(logn)) a.c.
+[Binary Search](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/Searching/binary_search.py) | θ(logn)
+[Interpolation Search](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/Searching/interpolation_search.py) | θ(n) w.c. θ(log(logn)) a.c.
+[Quadratic Binary Search](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/Searching/quadratic_binary_search.py) | θ(sqrt(n)) w.c. θ(log(logn)) a.c.
