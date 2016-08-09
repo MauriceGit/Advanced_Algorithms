@@ -9,7 +9,7 @@ Please see the appropriate file for the exact algorithm.
 
 Algorithm | Runtime
 --- | ---
-[2,3-tree](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/23Tree.py) (special case of the a,b-tree) | All operations in θ(logn)
+[2,3-tree](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/23Tree.py) (special case of the a,b-tree) | All operations in θ(logn) w.c. and a.c.
 
 ## General Sorting
 
@@ -28,10 +28,10 @@ s = max word length (Radixsort)
 
 Algorithm | Runtime
 --- | ---
-[Countingsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/counting_sort.py) | θ(n+k), O(n)
-[Advanced Countingsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/counting_sort_complex.py) | θ(n+k), O(n)
-[Bucketsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/bucket_sort.py) | θ(n+k), O(n)
-[Radixsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/radix_sort.py) | θ(s*(n+k))
+[Countingsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/counting_sort.py) | θ(n+k) w.c. and a.c.
+[Advanced Countingsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/counting_sort_complex.py) | θ(n+k) w.c. and a.c.
+[Bucketsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/bucket_sort.py) | θ(n+k) w.c. and a.c.
+[Radixsort](https://github.com/MauriceGit/Advanced_Algorithms/blob/master/radix_sort.py) | θ(s*(n+k)) w.c. and a.c.
 
 ## Order statistics (Select algorithms)
 
