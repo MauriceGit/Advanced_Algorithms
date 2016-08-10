@@ -9,6 +9,9 @@ __email__ = "maurice.tollmien@gmail.com"
 
 def search(S, e, l, r, count):
     # second check to avoid possible division by zero later on
+    # thanks mbolivar
+    if e == S[l]:
+        return l, count
     if l > r or S[l] == S[r]:
         return -1, count
 
