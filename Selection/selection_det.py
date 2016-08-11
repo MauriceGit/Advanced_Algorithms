@@ -43,11 +43,10 @@ def select(k, A):
 
     subSorted, medians = sortSubListsAndMedian(bigList)
 
-    medianPivot = -1
-    if len(medians) > 5:
+    # yes, we have at least one element in this list.
+    medianPivot = medians[0]
+    if len(medians) > 1:
         medianPivot = select(int(len(medians)/2), medians)
-    else:
-        medianPivot = statistics.median_low(medians)
 
     smaller, equal, larger = partition(medianPivot, A)
 
