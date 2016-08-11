@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
 Testing two selection algorithms (random and deterministic).
@@ -16,13 +16,13 @@ import time
 
 if __name__ == '__main__':
     start = time.clock()
-    listSize = 10000000
+    listSize = 1000000
     index    = random.randint(0, listSize/2)
-    bigList = [random.randint(0, listSize) for i in xrange(listSize)]
+    bigList = [random.randint(0, listSize) for i in range(listSize)]
 
-    print index, "time: ", (time.clock()-start)
+    print("{} time: {}".format(index, time.clock()-start))
     start = time.clock()
-    print "Selection rand:", select_rand(index, bigList), "time: ", (time.clock()-start)
+    print("Selection rand: {}, time: {}".format(select_rand(index, bigList), time.clock()-start))
     start = time.clock()
-    print "Selection det :", select_det(index, bigList), "time: ", (time.clock()-start)
+    print("Selection det: {}, time: {}".format(select_det(index, bigList), time.clock()-start))
 

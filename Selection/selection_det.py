@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
 Search for the k-th element of an unsorted list.
@@ -43,9 +43,11 @@ def select(k, A):
 
     subSorted, medians = sortSubListsAndMedian(bigList)
 
-    # This can't be done recursively. Stack overflow.
-    # If you get it working that way, please create a pull-request.
-    medianPivot = statistics.median_low(medians)
+    medianPivot = -1
+    if len(medians) > 5:
+        medianPivot = select(int(len(medians)/2), medians)
+    else:
+        medianPivot = statistics.median_low(medians)
 
     smaller, equal, larger = partition(medianPivot, A)
 
@@ -60,3 +62,5 @@ def select(k, A):
 def select_det(k, A):
     return select(k,A)
 
+if __name__ == '__main__':
+    print(select(3, [1,2,3,4,5,6,76,87,89]))
