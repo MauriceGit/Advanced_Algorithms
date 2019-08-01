@@ -9,6 +9,8 @@ These implementations were done accompanying a masters lecture on algorithmics.
 Some of these algorithms are just implemented quick-and-dirty while others (2,3-tree) have gotten some more thought put into.
 I couldn't always find time.
 
+None of the algorithms are fit and ready for production use. But most of them are available as robust implementations in standard or other libraries. Educational purpose only.
+
 ## Tree
 
 Algorithm | Runtime
